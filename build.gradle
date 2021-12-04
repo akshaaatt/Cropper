@@ -1,7 +1,6 @@
 buildscript {
     ext.kotlin_version = "1.6.0"
     repositories {
-        maven { url "https://plugins.gradle.org/m2/" }
         google()
         mavenCentral()
     }
@@ -9,12 +8,7 @@ buildscript {
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "org.jlleitschuh.gradle:ktlint-gradle:10.0.0"
     }
-}
-
-subprojects {
-    apply plugin: "org.jlleitschuh.gradle.ktlint"
 }
 
 allprojects {

@@ -5,9 +5,7 @@ import android.net.Uri
 import androidx.activity.result.ActivityResultRegistry
 import androidx.fragment.app.Fragment
 
-class ContractTestFragment(
-    registry: ActivityResultRegistry
-) : Fragment() {
+class ContractTestFragment(registry: ActivityResultRegistry) : Fragment() {
 
     var cropResult: CropImageView.CropResult? = null
     var pickResult: Uri? = null
