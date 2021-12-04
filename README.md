@@ -1,5 +1,24 @@
-[![](https://jitpack.io/v/akshaaatt/Cropper.svg)](https://jitpack.io/#akshaaatt/Cropper)
+<h1 align="center">Cropper - Android Image Cropper</h1>
 
+<p align="center">
+    <img src="https://jitpack.io/v/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub issues">
+    <a href="https://jitpack.io/#akshaaatt/Cropper">
+    <img src="https://PlayBadges.pavi2410.me/badge/downloads?id=com.redalck.gameone">
+    <img src="https://PlayBadges.pavi2410.me/badge/ratings?id=com.redalck.gameone">
+    <a href="https://github.com/akshaaatt/Cropper/commits/master">
+    <img src="https://img.shields.io/github/last-commit/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub last commit">
+    <a href="https://github.com/akshaaatt/Cropper/issues">
+    <img src="https://img.shields.io/github/issues-raw/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub issues">
+    <a href="https://github.com/akshaaatt/Cropper/pulls">
+    <img src="https://img.shields.io/github/issues-pr-raw/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub pull requests">
+    <img src="https://i.postimg.cc/05hDz4mq/crop.png"
+         alt="App Logo">
+</p>
+      
 Android Image Cropper
 =======
 **Powerful** (Zoom, Rotation, Multi-Source);
