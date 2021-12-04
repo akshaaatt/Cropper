@@ -24,7 +24,7 @@ Android Image Cropper
 
 ```gradle
   dependencies {
-       implementation 'com.github.akshaaatt:Cropper:1.0.0'
+       implementation 'com.github.akshaaatt:Cropper:1.00'
   }
 ```
 
