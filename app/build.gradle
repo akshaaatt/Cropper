@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-parcelize'
+
+android {
+    compileSdk 31
+    defaultConfig {
+        applicationId "com.aemerse.cropper.app"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName '1.0.0'
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    api project(':cropper')
+    implementation "androidx.appcompat:appcompat:1.4.0"
+    implementation "androidx.core:core-ktx:1.7.0"
+    implementation "com.google.android.material:material:1.4.0"
+}
