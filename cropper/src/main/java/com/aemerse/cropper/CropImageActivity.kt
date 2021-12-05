@@ -20,11 +20,7 @@ import com.aemerse.cropper.databinding.CropImageActivityBinding
 import com.aemerse.cropper.utils.getUriForFile
 import java.io.File
 
-open class CropImageActivity :
-    AppCompatActivity(),
-    OnSetImageUriCompleteListener,
-    OnCropImageCompleteListener {
-
+open class CropImageActivity : AppCompatActivity(), OnSetImageUriCompleteListener, OnCropImageCompleteListener {
     /**
      * Persist URI image to crop URI if specific permissions are required
      */
@@ -55,8 +51,7 @@ open class CropImageActivity :
         setCropImageView(binding.cropImageView)
         val bundle = intent.getBundleExtra(CropImage.CROP_IMAGE_EXTRA_BUNDLE)
         cropImageUri = bundle?.getParcelable(CropImage.CROP_IMAGE_EXTRA_SOURCE)
-        cropImageOptions =
-            bundle?.getParcelable(CropImage.CROP_IMAGE_EXTRA_OPTIONS) ?: CropImageOptions()
+        cropImageOptions = bundle?.getParcelable(CropImage.CROP_IMAGE_EXTRA_OPTIONS) ?: CropImageOptions()
 
         if (savedInstanceState == null) {
             if (cropImageUri == null || cropImageUri == Uri.EMPTY) {
@@ -74,11 +69,10 @@ open class CropImageActivity :
         }
 
         supportActionBar?.let {
-            title =
-                if (cropImageOptions.activityTitle.isNotEmpty())
-                    cropImageOptions.activityTitle
-                else
-                    resources.getString(R.string.crop_image_activity_title)
+            title = when {
+                    cropImageOptions.activityTitle.isNotEmpty() -> cropImageOptions.activityTitle
+                    else -> resources.getString(R.string.crop_image_activity_title)
+                }
             it.setDisplayHomeAsUpEnabled(true)
         }
     }
