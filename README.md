@@ -8,12 +8,6 @@
     <a href="https://github.com/akshaaatt/Cropper/commits/master">
     <img src="https://img.shields.io/github/last-commit/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
          alt="GitHub last commit">
-    <a href="https://github.com/akshaaatt/Cropper/issues">
-    <img src="https://img.shields.io/github/issues-raw/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub issues">
-    <a href="https://github.com/akshaaatt/Cropper/pulls">
-    <img src="https://img.shields.io/github/issues-pr-raw/akshaaatt/Cropper.svg?style=flat-square&logo=github&logoColor=white"
-         alt="GitHub pull requests">
     <img src="https://i.postimg.cc/05hDz4mq/crop.png"
          alt="App Logo">
 </p>
